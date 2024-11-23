@@ -258,22 +258,22 @@ ARIMA Model fitting with prequential cross-validation
 
 | Variable            | Iteration 1                | Iteration 2              | Iteration 3  | 
 |---------------------|-----------------------|--------------------------------------|-----------------------|
-| Free Memory         | ![FreeMemory_.png](imgs/Arima/fold-0_FreeMemory_test_result.jpg) | 	![FreeMemory_.png](imgs/Arima/fold-1_FreeMemory_test_result.jpg) | 	![FreeMemory_.png](imgs/Arima/fold-2_FreeMemory_test_result.jpg) | 
-| Used Memory         | ![UsedMemory_.png](imgs/Arima/fold-0_UsedMemory_test_result.jpg) | 	![UsedMemory_.png](imgs/Arima/fold-1_UsedMemory_test_result.jpg) | 	![UsedMemory_.png](imgs/Arima/fold-2_UsedMemory_test_result.jpg) |   
-| Free Disk           | ![FreeDisk_test.png](imgs/Arima/fold-0_FreeDisk_test_result.jpg) | 	![FreeDisk_test.png](imgs/Arima/fold-1_FreeDisk_test_result.jpg) | 	![FreeDisk_test.png](imgs/Arima/fold-2_FreeDisk_test_result.jpg) | 
-| Used Disk           | ![UsedDisk_test.png](imgs/Arima/fold-0_UsedDisk_test_result.jpg) | 	![UsedDisk_test.png](imgs/Arima/fold-1_UsedDisk_test_result.jpg) | 	![UsedDisk_test.png](imgs/Arima/fold-2_UsedDisk_test_result.jpg) | 
-| Disk read/s         | ![Diskreads_test.png](imgs/Arima/fold-0_Diskreads_test_result.jpg) | 	![Diskreads_test.png](imgs/Arima/fold-1_Diskreads_test_result.jpg) | 	![Diskreads_test.png](imgs/Arima/fold-2_Diskreads_test_result.jpg) | 
-| Disk write/s        | ![Diskwrites_test.png](imgs/Arima/fold-0_Diskwrites_test_result.jpg) | 	![Diskwrites_test.png](imgs/Arima/fold-1_Diskwrites_test_result.jpg) | 	![Diskwrites_test.png](imgs/Arima/fold-2_Diskwrites_test_result.jpg) | 
-| NetBytes In         | ![NetBytes In_test.png](imgs/Arima/fold-0_NetBytesIn_test_result.jpg) | 	![NetBytes In_test.png](imgs/Arima/fold-1_NetBytesIn_test_result.jpg) | 	![NetBytes In_test.png](imgs/Arima/fold-2_NetBytesIn_test_result.jpg) | 
-| NetBytes Out        | ![NetBytesOut_test.png](imgs/Arima/fold-0_NetBytesOut_test_result.jpg) | 	![NetBytesOut_test.png](imgs/Arima/fold-1_NetBytesOut_test_result.jpg) | 	![NetBytesOut_test.png](imgs/Arima/fold-2_NetBytesOut_test_result.jpg) | 
-| NetPackets In       | ![NetPacketsIn_test.png](imgs/Arima/fold-0_NetPacketsIn_test_result.jpg) | 	![NetPacketsIn_test.png](imgs/Arima/fold-1_NetPacketsIn_test_result.jpg) | 	![NetPacketsIn_test.png](imgs/Arima/fold-2_NetPacketsIn_test_result.jpg) | 
-| NetPackets Out      |  ![NetPacketsOut_test.png](imgs/Arima/fold-0_NetPacketsOut_test_result.jpg) | 	![NetPacketsOut_test.png](imgs/Arima/fold-1_NetPacketsOut_test_result.jpg) | 	![NetPacketsOut_test.png](imgs/Arima/fold-2_NetPacketsOut_test_result.jpg) |
-| Rx packets          | ![Rxpackets_test.png](imgs/Arima/fold-0_Rxpackets_test_result.jpg) | 	![Rxpackets_test.png](imgs/Arima/fold-1_Rxpackets_test_result.jpg) | 	![Rxpackets_test.png](imgs/Arima/fold-2_Rxpackets_test_result.jpg) | 
-| Tx packets          | ![Txpackets_test.png](imgs/Arima/fold-0_Txpackets_test_result.jpg) | 	![Txpackets_test.png](imgs/Arima/fold-1_Txpackets_test_result.jpg) | 	![Txpackets_test.png](imgs/Arima/fold-2_Txpackets_test_result.jpg) | 
-| CPU percent         | ![CPUpercent_test.png](imgs/Arima/fold-0_CPUpercent_test_result.jpg) | 	![CPUpercent_test.png](imgs/Arima/fold-1_CPUpercent_test_result.jpg) | 	![CPUpercent_test.png](imgs/Arima/fold-2_CPUpercent_test_result.jpg) | 
-| Memory Used percent | ![MemoryUsedpercent_test.png](imgs/Arima/fold-0_MemoryUsedpercent_test_result.jpg) | 	![MemoryUsedpercent_test.png](imgs/Arima/fold-1_MemoryUsedpercent_test_result.jpg) | 	![MemoryUsedpercent_test.png](imgs/Arima/fold-2_MemoryUsedpercent_test_result.jpg) | 
-| Disk Used percent   | ![DiskUsedpercent_test.png](imgs/Arima/fold-0_DiskUsedpercent_test_result.jpg) | 	![DiskUsedpercent_test.png](imgs/Arima/fold-1_DiskUsedpercent_test_result.jpg) | 	![DiskUsedpercent_test.png](imgs/Arima/fold-2_DiskUsedpercent_test_result.jpg) | 
-| Uptime              |![Uptime_rmse.png](imgs/Arima/fold-0_Uptime_test_result.jpg) | 	![Uptime_mae.png](imgs/Arima/fold-1_Uptime_test_result.jpg) | 	![Uptime_mape.png](imgs/Arima/fold-2_Uptime_test_result.jpg) | 
+| Free Memory         | ![FreeMemory_.png](imgs/Arima/iteration-0_FreeMemory_test_result.png) | 	![FreeMemory_.png](imgs/Arima/iteration-1_FreeMemory_test_result.png) | 	![FreeMemory_.png](imgs/Arima/iteration-2_FreeMemory_test_result.png) | 
+| Used Memory         | ![UsedMemory_.png](imgs/Arima/iteration-0_UsedMemory_test_result.png) | 	![UsedMemory_.png](imgs/Arima/iteration-1_UsedMemory_test_result.png) | 	![UsedMemory_.png](imgs/Arima/iteration-2_UsedMemory_test_result.png) |   
+| Free Disk           | ![FreeDisk_test.png](imgs/Arima/iteration-0_FreeDisk_test_result.png) | 	![FreeDisk_test.png](imgs/Arima/iteration-1_FreeDisk_test_result.png) | 	![FreeDisk_test.png](imgs/Arima/iteration-2_FreeDisk_test_result.png) | 
+| Used Disk           | ![UsedDisk_test.png](imgs/Arima/iteration-0_UsedDisk_test_result.png) | 	![UsedDisk_test.png](imgs/Arima/iteration-1_UsedDisk_test_result.png) | 	![UsedDisk_test.png](imgs/Arima/iteration-2_UsedDisk_test_result.png) | 
+| Disk read/s         | ![Diskreads_test.png](imgs/Arima/iteration-0_Diskreads_test_result.png) | 	![Diskreads_test.png](imgs/Arima/iteration-1_Diskreads_test_result.png) | 	![Diskreads_test.png](imgs/Arima/iteration-2_Diskreads_test_result.png) | 
+| Disk write/s        | ![Diskwrites_test.png](imgs/Arima/iteration-0_Diskwrites_test_result.png) | 	![Diskwrites_test.png](imgs/Arima/iteration-1_Diskwrites_test_result.png) | 	![Diskwrites_test.png](imgs/Arima/iteration-2_Diskwrites_test_result.png) | 
+| NetBytes In         | ![NetBytes In_test.png](imgs/Arima/iteration-0_NetBytesIn_test_result.png) | 	![NetBytes In_test.png](imgs/Arima/iteration-1_NetBytesIn_test_result.png) | 	![NetBytes In_test.png](imgs/Arima/iteration-2_NetBytesIn_test_result.png) | 
+| NetBytes Out        | ![NetBytesOut_test.png](imgs/Arima/iteration-0_NetBytesOut_test_result.png) | 	![NetBytesOut_test.png](imgs/Arima/iteration-1_NetBytesOut_test_result.png) | 	![NetBytesOut_test.png](imgs/Arima/iteration-2_NetBytesOut_test_result.png) | 
+| NetPackets In       | ![NetPacketsIn_test.png](imgs/Arima/iteration-0_NetPacketsIn_test_result.png) | 	![NetPacketsIn_test.png](imgs/Arima/iteration-1_NetPacketsIn_test_result.png) | 	![NetPacketsIn_test.png](imgs/Arima/iteration-2_NetPacketsIn_test_result.png) | 
+| NetPackets Out      |  ![NetPacketsOut_test.png](imgs/Arima/iteration-0_NetPacketsOut_test_result.png) | 	![NetPacketsOut_test.png](imgs/Arima/iteration-1_NetPacketsOut_test_result.png) | 	![NetPacketsOut_test.png](imgs/Arima/iteration-2_NetPacketsOut_test_result.png) |
+| Rx packets          | ![Rxpackets_test.png](imgs/Arima/iteration-0_Rxpackets_test_result.png) | 	![Rxpackets_test.png](imgs/Arima/iteration-1_Rxpackets_test_result.png) | 	![Rxpackets_test.png](imgs/Arima/iteration-2_Rxpackets_test_result.png) | 
+| Tx packets          | ![Txpackets_test.png](imgs/Arima/iteration-0_Txpackets_test_result.png) | 	![Txpackets_test.png](imgs/Arima/iteration-1_Txpackets_test_result.png) | 	![Txpackets_test.png](imgs/Arima/iteration-2_Txpackets_test_result.png) | 
+| CPU percent         | ![CPUpercent_test.png](imgs/Arima/iteration-0_CPUpercent_test_result.png) | 	![CPUpercent_test.png](imgs/Arima/iteration-1_CPUpercent_test_result.png) | 	![CPUpercent_test.png](imgs/Arima/iteration-2_CPUpercent_test_result.png) | 
+| Memory Used percent | ![MemoryUsedpercent_test.png](imgs/Arima/iteration-0_MemoryUsedpercent_test_result.png) | 	![MemoryUsedpercent_test.png](imgs/Arima/iteration-1_MemoryUsedpercent_test_result.png) | 	![MemoryUsedpercent_test.png](imgs/Arima/iteration-2_MemoryUsedpercent_test_result.png) | 
+| Disk Used percent   | ![DiskUsedpercent_test.png](imgs/Arima/iteration-0_DiskUsedpercent_test_result.png) | 	![DiskUsedpercent_test.png](imgs/Arima/iteration-1_DiskUsedpercent_test_result.png) | 	![DiskUsedpercent_test.png](imgs/Arima/iteration-2_DiskUsedpercent_test_result.png) | 
+| Uptime              |![Uptime_rmse.png](imgs/Arima/iteration-0_Uptime_test_result.png) | 	![Uptime_mae.png](imgs/Arima/iteration-1_Uptime_test_result.png) | 	![Uptime_mape.png](imgs/Arima/iteration-2_Uptime_test_result.png) | 
 
 [Index](#Home)
 
@@ -292,10 +292,3 @@ ARIMA Model auto fitting with prequential cross-validation
 
 
 [Index](#Home)
-
-# DNNModels
-# DNNModels
-# DNNModels
-# DNNModels
-# DNNModels
-# DNNModels
