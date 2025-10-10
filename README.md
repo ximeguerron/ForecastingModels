@@ -1,10 +1,10 @@
-<h1>Building and Validating DNN Models for
+<h1>Building and Validating Deep Learning Models for
 Forecasting the Quality of Cloud Services</h1></div>
 
 * * *
 This repository manages the files used in the empirical study of the paper:
-_**Building and Validating DNN Models for
-Forecasting the Quality of Cloud Servicest**_
+_**Building and Validating Deep Learning Models for
+Forecasting the Quality of Cloud Services**_
 * * *
 
 
@@ -24,7 +24,7 @@ The following section presents the results obtained for the 16 variables used to
 ## 1. Datasets {#Datos}
 Representation of the **_datasets_**  with the observations of 16 QoS metrics extracted from the cloud service SAlert monitoring.
 
-- <a href ="./experiment/data (1).csv">  Data source </a>
+- <a href ="./experiment/data.csv">  Data set </a>
 
 
 | Variable            | Dataset                                                                  |
@@ -49,15 +49,24 @@ Representation of the **_datasets_**  with the observations of 16 QoS metrics ex
 [Index](#Home)
 
 ## 2. Jupiter Notebook {#notebook}
-The notebook is available on the link, and the directories required for execution are detailed on the readme.txt file
+The notebooks of the study are available here.
 
+### 2.1 Model Development Notebook 
+The notebook which perform the models' training and validatioon is available on the link, and the directories required for execution are detailed on the readme.txt file
 <p align="center">
-    <a href="./experiment/BiGru_bi_univariado_uni_experiment_v6.ipynb">
+    <a href="./experiment/bigru_lstm_ari_univariate_experiment.ipynb">
         <img src="https://colab.research.google.com/assets/colab-badge.svg" alt="Open In Colab"/>
     </a>
 </p>
 
-The statistics used are available on the link <a href ="./experiment/CAIN v4.xlsx">  Model statistics </a>
+### 2.2 Hypotheses Testing Notebook
+The notebook which perform thee hypotheses testing is available on the link, and the dataset files required for execution are included in statistics directory.
+
+<p align="center">
+    <a href="./statistics/Permanova.ipynb">
+        <img src="https://colab.research.google.com/assets/colab-badge.svg" alt="Open In Colab"/>
+    </a>
+</p>
 
 [Index](#Home)
 
@@ -71,13 +80,13 @@ Iteration 1| ![Free Memory_mrse.png](imgs/BiGru/metrics/iteration_0_Free%20Memor
 |Iteration 2         | ![Free Memory_mrse.png](imgs/BiGru/metrics/iteration_1_Free%20Memory_rmse.png)                   | ![Free Memory_mae.png](imgs/BiGru/metrics/Iteration_1_Free%20Memory_mae.png)                    | ![Free Memory_mape.png](imgs/BiGru/metrics/iteration_1_Free%20Memory_mape.png)                   | 
 | Iteration 3        | ![Free Memory_mrse.png](imgs/BiGru/metrics/iteration_2_Free%20Memory_rmse.png)                   | ![Free Memory_mae.png](imgs/BiGru/metrics/Iteration_2_Free%20Memory_mae.png)                    | ![Free Memory_mape.png](imgs/BiGru/metrics/iteration_2_Free%20Memory_mape.png)                   | 
 | **_Used Memory_**         
-Iteration 1| ![Used Memory_rsme.png](imgs/BiGru/metrics/iteration_0_Used%20Memory_rmse.png)                   | ![Used Memory_mae.png](imgs/BiGru/metrics/Iteration_0_Used%20Memory_mae.png)                    | ![Used Memory_mape.png](imgs/BiGru/metrics/iteration_0_Used%20Memory_mape.png) | 
-| Iteration 2         | ![Used Memory_rsme.png](imgs/BiGru/metrics/iteration_1_Used%20Memory_rmse.png)                   | ![Used Memory_mae.png](imgs/BiGru/metrics/Iteration_1_Used%20Memory_mae.png)                    | ![Used Memory_mape.png](imgs/BiGru/metrics/iteration_1_Used%20Memory_mape.png) | 
-| Iteration 3         | ![Used Memory_rsme.png](imgs/BiGru/metrics/iteration_2_Used%20Memory_rmse.png)                   | ![Used Memory_mae.png](imgs/BiGru/metrics/Iteration_2_Used%20Memory_mae.png)   | ![Used Memory_mape.png](imgs/BiGru/metrics/iteration_2_Used%20Memory_mape.png)          | 
+Iteration 1| ![Used Memory_rmse.png](imgs/BiGru/metrics/iteration_0_Used%20Memory_rmse.png)                   | ![Used Memory_mae.png](imgs/BiGru/metrics/Iteration_0_Used%20Memory_mae.png)                    | ![Used Memory_mape.png](imgs/BiGru/metrics/iteration_0_Used%20Memory_mape.png) | 
+| Iteration 2         | ![Used Memory_rmse.png](imgs/BiGru/metrics/iteration_1_Used%20Memory_rmse.png)                   | ![Used Memory_mae.png](imgs/BiGru/metrics/Iteration_1_Used%20Memory_mae.png)                    | ![Used Memory_mape.png](imgs/BiGru/metrics/iteration_1_Used%20Memory_mape.png) | 
+| Iteration 3         | ![Used Memory_rmse.png](imgs/BiGru/metrics/iteration_2_Used%20Memory_rmse.png)                   | ![Used Memory_mae.png](imgs/BiGru/metrics/Iteration_2_Used%20Memory_mae.png)   | ![Used Memory_mape.png](imgs/BiGru/metrics/iteration_2_Used%20Memory_mape.png)          | 
 | **_Free Disk_**           
-Iteration 1| ![FreeDisk_rsme.png](imgs/BiGru/metrics/iteration_0_Free%20Disk_rmse.png) |  ![FreeDisk_mae.png](imgs/BiGru/metrics/Iteration_0_Free%20Disk_mae.png)|        ![FreeDisk_mape.png](imgs/BiGru/metrics/iteration_0_Free%20Disk_mape.png) | 
-|Iteration 2| ![FreeDisk_rsme.png](imgs/BiGru/metrics/iteration_1_Free%20Disk_rmse.png) |  ![FreeDisk_mae.png](imgs/BiGru/metrics/Iteration_1_Free%20Disk_mae.png)|        ![FreeDisk_mape.png](imgs/BiGru/metrics/iteration_1_Free%20Disk_mape.png) | 
-|Iteration 3| ![FreeDisk_rsme.png](imgs/BiGru/metrics/iteration_2_Free%20Disk_rmse.png) |  ![FreeDisk_mae.png](imgs/BiGru/metrics/Iteration_2_Free%20Disk_mae.png)|        ![FreeDisk_mape.png](imgs/BiGru/metrics/iteration_2_Free%20Disk_mape.png) | 
+Iteration 1| ![FreeDisk_rmse.png](imgs/BiGru/metrics/iteration_0_Free%20Disk_rmse.png) |  ![FreeDisk_mae.png](imgs/BiGru/metrics/Iteration_0_Free%20Disk_mae.png)|        ![FreeDisk_mape.png](imgs/BiGru/metrics/iteration_0_Free%20Disk_mape.png) | 
+|Iteration 2| ![FreeDisk_rmse.png](imgs/BiGru/metrics/iteration_1_Free%20Disk_rmse.png) |  ![FreeDisk_mae.png](imgs/BiGru/metrics/Iteration_1_Free%20Disk_mae.png)|        ![FreeDisk_mape.png](imgs/BiGru/metrics/iteration_1_Free%20Disk_mape.png) | 
+|Iteration 3| ![FreeDisk_rmse.png](imgs/BiGru/metrics/iteration_2_Free%20Disk_rmse.png) |  ![FreeDisk_mae.png](imgs/BiGru/metrics/Iteration_2_Free%20Disk_mae.png)|        ![FreeDisk_mape.png](imgs/BiGru/metrics/iteration_2_Free%20Disk_mape.png) | 
 | **_Used Disk_**
 Iteration 1| ![Used Disk_rmse.png](imgs/BiGru/metrics/iteration_0_Used%20Disk_rmse.png) | ![Used Disk_mae.png](imgs/BiGru/metrics/Iteration_0_Used%20Disk_mae.png) | ![Used Disk_mape.png](imgs/BiGru/metrics/iteration_0_Used%20Disk_mape.png) | 
 |Iteration 2| ![Used Disk_rmse.png](imgs/BiGru/metrics/iteration_1_Used%20Disk_rmse.png) | ![Used Disk_mae.png](imgs/BiGru/metrics/Iteration_1_Used%20Disk_mae.png) | ![Used Disk_mape.png](imgs/BiGru/metrics/iteration_1_Used%20Disk_mape.png) | 
@@ -105,17 +114,17 @@ Iteration 1| ![NetPackets In_rmse.png](imgs/BiGru/metrics/iteration_0_NetPackets
 | **_NetPackets Out_**   
 Iteration 1|![NetPackets Out_rmse.png](imgs/BiGru/metrics/iteration_0_NetPackets%20Out_rmse.png) | 	![NetPackets Out_mae.png](imgs/BiGru/metrics/Iteration_0_NetPackets%20Out_mae.png) | ![NetPackets Out_mape.png](imgs/BiGru/metrics/iteration_0_NetPackets%20Out_mape.png) | 
 |Iteration 2|![NetPackets Out_rmse.png](imgs/BiGru/metrics/iteration_1_NetPackets%20Out_rmse.png) | 	![NetPackets Out_mae.png](imgs/BiGru/metrics/Iteration_1_NetPackets%20Out_mae.png) | ![NetPackets Out_mape.png](imgs/BiGru/metrics/iteration_1_NetPackets%20Out_mape.png) | 
-| Iteration 3|![NetPackets Out_rmse.png](imgs/BiGru/metrics/iteration_2_NetPackets%20Out_rmse.png) | 	![NetPackets Out_mae.png](imgs/BiGruu/metrics/Iteration_2_NetPackets%20Out_mae.png) | ![NetPackets Out_mape.png](imgs/BiGru/metrics/iteration_2_NetPackets%20Out_mape.png) |     
+| Iteration 3|![NetPackets Out_rmse.png](imgs/BiGru/metrics/iteration_2_NetPackets%20Out_rmse.png) | 	![NetPackets Out_mae.png](imgs/BiGru/metrics/Iteration_2_NetPackets%20Out_mae.png) | ![NetPackets Out_mape.png](imgs/BiGru/metrics/iteration_2_NetPackets%20Out_mape.png) |     
 | **_Rx packets_**    
 Iteration 1|![Rx packets_rmse.png](imgs/BiGru/metrics/iteration_0_Rx%20packets_rmse.png) | 	![Rx packets_mae.png](imgs/BiGru/metrics/Iteration_0_Rx%20packets_mae.png) | 	![Rx packets_mape.png](imgs/BiGru/metrics/iteration_0_Rx%20packets_mape.png) | 
 |Iteration 2|![Rx packets_rmse.png](imgs/BiGru/metrics/iteration_1_Rx%20packets_rmse.png) | 	![Rx packets_mae.png](imgs/BiGru/metrics/Iteration_1_Rx%20packets_mae.png) | 	![Rx packets_mape.png](imgs/BiGru/metrics/iteration_1_Rx%20packets_mape.png) | 
-|Iteration 3|![Rx packets_rmse.png](imgs/BiGruu/metrics/iteration_2_Rx%20packets_rmse.png) | 	![Rx packets_mae.png](imgs/BiGru/metrics/Iteration_2_Rx%20packets_mae.png) | 	![Rx packets_mape.png](imgs/BiGru/metrics/iteration_2_Rx%20packets_mape.png) | 
+|Iteration 3|![Rx packets_rmse.png](imgs/BiGru/metrics/iteration_2_Rx%20packets_rmse.png) | 	![Rx packets_mae.png](imgs/BiGru/metrics/Iteration_2_Rx%20packets_mae.png) | 	![Rx packets_mape.png](imgs/BiGru/metrics/iteration_2_Rx%20packets_mape.png) | 
 | **_Tx packets_**         
 Iteration 1 |![Tx packets_rmse.png](imgs/BiGru/metrics/iteration_0_Tx%20packets_rmse.png) | 	![Tx packets_mae.png](imgs/BiGru/metrics/Iteration_0_Tx%20packets_mae.png) | 	![Tx packets_mape.png](imgs/BiGru/metrics/iteration_0_Tx%20packets_mape.png) | 
 |Iteration 2 |![Tx packets_rmse.png](imgs/BiGru/metrics/iteration_1_Tx%20packets_rmse.png) | 	![Tx packets_mae.png](imgs/BiGru/metrics/Iteration_1_Tx%20packets_mae.png) | 	![Tx packets_mape.png](imgs/BiGru/metrics/iteration_1_Tx%20packets_mape.png) | 
 |Iteration 3 |![Tx packets_rmse.png](imgs/BiGru/metrics/iteration_2_Tx%20packets_rmse.png) | 	![Tx packets_mae.png](imgs/BiGru/metrics/Iteration_2_Tx%20packets_mae.png) | 	![Tx packets_mape.png](imgs/BiGru/metrics/iteration_2_Tx%20packets_mape.png) | 
 | **_CPU percent_**
-Iteration 1| ![CPU percent_mrse.png](imgs/BiGru/metrics/iteration_0_CPU%20percent_rmse.png)                   | ![CPU percent_mae.png](imgs/BiGru/metrics/Iteration_0_CPU%20percent_mae.png)                    | ![CPU percent_mape.png](imgs/BiGru/metrics/iteration_0_CPU%20percent_mape.png) | 
+Iteration 1| ![CPU percent_rmse.png](imgs/BiGru/metrics/iteration_0_CPU%20percent_rmse.png)                   | ![CPU percent_mae.png](imgs/BiGru/metrics/Iteration_0_CPU%20percent_mae.png)                    | ![CPU percent_mape.png](imgs/BiGru/metrics/iteration_0_CPU%20percent_mape.png) | 
 |Iteration 2         | ![CPU percent_mrse.png](imgs/BiGru/metrics/iteration_1_CPU%20percent_rmse.png)                   | ![CPU percent_mae.png](imgs/BiGru/metrics/Iteration_1_CPU%20percent_mae.png)                    | ![CPU percent_mape.png](imgs/BiGru/metrics/iteration_1_CPU%20percent_mape.png) | 
 | Iteration 3| ![CPU percent_mrse.png](imgs/BiGru/metrics/iteration_2_CPU%20percent_rmse.png)                   | ![CPU percent_mae.png](imgs/BiGru/metrics/Iteration_2_CPU%20percent_mae.png)                    | ![CPU percent_mape.png](imgs/BiGru/metrics/iteration_2_CPU%20percent_mape.png)  
 | **_Memory Used percent_** 
@@ -143,13 +152,13 @@ Iteration 1| ![Free Memory_mrse.png](imgs/LSTM/metrics/iteration_0_Free%20Memory
 |Iteration 2         | ![Free Memory_mrse.png](imgs/LSTM/metrics/iteration_1_Free%20Memory_rmse.png)                   | ![Free Memory_mae.png](imgs/LSTM/metrics/iteration_1_Free%20Memory_mae.png)                    | ![Free Memory_mape.png](imgs/LSTM/metrics/iteration_1_Free%20Memory_mape.png)                   | 
 | Iteration 3        | ![Free Memory_mrse.png](imgs/LSTM/metrics/iteration_2_Free%20Memory_rmse.png)                   | ![Free Memory_mae.png](imgs/LSTM/metrics/iteration_2_Free%20Memory_mae.png)                    | ![Free Memory_mape.png](imgs/LSTM/metrics/iteration_2_Free%20Memory_mape.png)                   | 
 | **_Used Memory_**         
-Iteration 1| ![Used Memory_rsme.png](imgs/LSTM/metrics/iteration_0_Used%20Memory_rmse.png)                   | ![Used Memory_mae.png](imgs/LSTM/metrics/iteration_0_Used%20Memory_mae.png)                    | ![Used Memory_mape.png](imgs/LSTM/metrics/iteration_0_Used%20Memory_mape.png) | 
-| Iteration 2         | ![Used Memory_rsme.png](imgs/LSTM/metrics/iteration_1_Used%20Memory_rmse.png)                   | ![Used Memory_mae.png](imgs/LSTM/metrics/iteration_1_Used%20Memory_mae.png)                    | ![Used Memory_mape.png](imgs/LSTM/metrics/iteration_1_Used%20Memory_mape.png) | 
-| Iteration 3         | ![Used Memory_rsme.png](imgs/LSTM/metrics/iteration_2_Used%20Memory_rmse.png)                   | ![Used Memory_mae.png](imgs/LSTM/metrics/iteration_2_Used%20Memory_mae.png)   | ![Used Memory_mape.png](imgs/LSTM/metrics/iteration_2_Used%20Memory_mape.png)          | 
+Iteration 1| ![Used Memory_rmse.png](imgs/LSTM/metrics/iteration_0_Used%20Memory_rmse.png)                   | ![Used Memory_mae.png](imgs/LSTM/metrics/iteration_0_Used%20Memory_mae.png)                    | ![Used Memory_mape.png](imgs/LSTM/metrics/iteration_0_Used%20Memory_mape.png) | 
+| Iteration 2         | ![Used Memory_rmse.png](imgs/LSTM/metrics/iteration_1_Used%20Memory_rmse.png)                   | ![Used Memory_mae.png](imgs/LSTM/metrics/iteration_1_Used%20Memory_mae.png)                    | ![Used Memory_mape.png](imgs/LSTM/metrics/iteration_1_Used%20Memory_mape.png) | 
+| Iteration 3         | ![Used Memory_rmse.png](imgs/LSTM/metrics/iteration_2_Used%20Memory_rmse.png)                   | ![Used Memory_mae.png](imgs/LSTM/metrics/iteration_2_Used%20Memory_mae.png)   | ![Used Memory_mape.png](imgs/LSTM/metrics/iteration_2_Used%20Memory_mape.png)          | 
 | **_Free Disk_**           
-Iteration 1| ![FreeDisk_rsme.png](imgs/LSTM/metrics/iteration_0_Free%20Disk_rmse.png) |  ![FreeDisk_mae.png](imgs/LSTM/metrics/iteration_0_Free%20Disk_mae.png)|        ![FreeDisk_mape.png](imgs/LSTM/metrics/iteration_0_Free%20Disk_mape.png) | 
-|Iteration 2| ![FreeDisk_rsme.png](imgs/LSTM/metrics/iteration_1_Free%20Disk_rmse.png) |  ![FreeDisk_mae.png](imgs/LSTM/metrics/iteration_1_Free%20Disk_mae.png)|        ![FreeDisk_mape.png](imgs/LSTM/metrics/iteration_1_Free%20Disk_mape.png) | 
-|Iteration 3| ![FreeDisk_rsme.png](imgs/LSTM/metrics/iteration_2_Free%20Disk_rmse.png) |  ![FreeDisk_mae.png](imgs/LSTM/metrics/iteration_2_Free%20Disk_mae.png)|        ![FreeDisk_mape.png](imgs/LSTM/metrics/iteration_2_Free%20Disk_mape.png) | 
+Iteration 1| ![FreeDisk_rmse.png](imgs/LSTM/metrics/iteration_0_Free%20Disk_rmse.png) |  ![FreeDisk_mae.png](imgs/LSTM/metrics/iteration_0_Free%20Disk_mae.png)|        ![FreeDisk_mape.png](imgs/LSTM/metrics/iteration_0_Free%20Disk_mape.png) | 
+|Iteration 2| ![FreeDisk_rmse.png](imgs/LSTM/metrics/iteration_1_Free%20Disk_rmse.png) |  ![FreeDisk_mae.png](imgs/LSTM/metrics/iteration_1_Free%20Disk_mae.png)|        ![FreeDisk_mape.png](imgs/LSTM/metrics/iteration_1_Free%20Disk_mape.png) | 
+|Iteration 3| ![FreeDisk_rmse.png](imgs/LSTM/metrics/iteration_2_Free%20Disk_rmse.png) |  ![FreeDisk_mae.png](imgs/LSTM/metrics/iteration_2_Free%20Disk_mae.png)|        ![FreeDisk_mape.png](imgs/LSTM/metrics/iteration_2_Free%20Disk_mape.png) | 
 | **_Used Disk_**
 Iteration 1| ![Used Disk_rmse.png](imgs/LSTM/metrics/iteration_0_Used%20Disk_rmse.png) | ![Used Disk_mae.png](imgs/LSTM/metrics/iteration_0_Used%20Disk_mae.png) | ![Used Disk_mape.png](imgs/LSTM/metrics/iteration_0_Used%20Disk_mape.png) | 
 |Iteration 2| ![Used Disk_rmse.png](imgs/LSTM/metrics/iteration_1_Used%20Disk_rmse.png) | ![Used Disk_mae.png](imgs/LSTM/metrics/iteration_1_Used%20Disk_mae.png) | ![Used Disk_mape.png](imgs/LSTM/metrics/iteration_1_Used%20Disk_mape.png) | 
