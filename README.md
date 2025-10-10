@@ -1,6 +1,3 @@
-<h1>Building and Validating Deep Learning Models for
-Forecasting the Quality of Cloud Services</h1></div>
-
 * * *
 This repository manages the files used in the empirical study of the paper:
 _**Building and Validating Deep Learning Models for
