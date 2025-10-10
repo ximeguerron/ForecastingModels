@@ -9,7 +9,7 @@ The following section presents the results obtained for the 16 variables used to
 
 ## Index {#Home}
 1. [Dataset](#datos)
-2. [Jupiter Notebook](#notebook)
+2. [Jupiter Notebooks](#notebook)
 3. [BI-GRU Accuracy Metrics](#MetricBiGru)
 4. [LSTM Accuracy Metrics](#Metric)
 5. [BI-GRU model predictions](#BiGru)
@@ -45,7 +45,7 @@ Representation of the **_datasets_**  with the observations of 16 QoS metrics ex
 
 [Index](#Home)
 
-## 2. Jupiter Notebook {#notebook}
+## 2. Jupiter Notebooks {#notebook}
 The notebooks of the study are available here.
 
 ### 2.1 Model Development Notebook 
