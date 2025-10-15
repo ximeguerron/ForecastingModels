@@ -49,21 +49,35 @@ Representation of the **_datasets_**  with the observations of 16 QoS metrics ex
 The notebooks of the study are available here.
 
 ### 2.1 Model Development Notebook 
-The notebook which perform the models' training and validatioon is available on the link, and the directories required for execution are detailed on the readme.txt file
+The notebook, which performs the models' training and validation, is available on the link, and the directories required for execution are detailed on the readme.txt file
 <p align="center">
-    <a href="./experiment/bigru_lstm_ari_univariate_experiment.ipynb">
-        <img src="https://colab.research.google.com/assets/colab-badge.svg" alt="Open In Colab"/>
+    <a href="https://drive.google.com/file/d/119A84lUytPZH5oi05jGiDRFsKz3wfdvK/view?usp=sharing">
+        <img src="./imgs/colab.png" alt="Open In Colab"/>
     </a>
 </p>
 
+<p align="center">
+    <a href="./experiment/bigru_lstm_ari_univariate_experiment.ipynb">
+        <img src="./imgs/jupiter.png" alt="Jupiter Notebook"/>
+    </a>
+</p>
+
+
 ### 2.2 Hypotheses Testing Notebook
-The notebook which perform thee hypotheses testing is available on the link, and the dataset files required for execution are included in statistics directory.
+The notebook, which performs the hypothesis testing, is available on the link, and the dataset files required for execution are included in the statistics directory.
+<p align="center">
+    <a href="https://drive.google.com/file/d/1eJAd0O-HS4nhspPVj50LhO4X3Q-tTXUQ/view?usp=sharing">
+        <img src="./imgs/colab.png" alt="Open In Colab"/>
+    </a>
+</p>
 
 <p align="center">
     <a href="./statistics/Permanova.ipynb">
-        <img src="https://colab.research.google.com/assets/colab-badge.svg" alt="Open In Colab"/>
+        <img src="./imgs/jupiter.png" alt="Jupiter Notebook"/>
     </a>
 </p>
+
+
 
 [Index](#Home)
 
