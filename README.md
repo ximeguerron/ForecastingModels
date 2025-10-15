@@ -5,7 +5,7 @@ Forecasting the Quality of Cloud Services**_
 * * *
 
 
-The following section presents the results obtained for the 16 variables used to develop the experiment, as well as additional information related to them.
+The following section presents the results obtained for the 16 variables used to develop the experiment, along with additional information related to them.
 
 ## Index {#Home}
 1. [Dataset](#datos)
@@ -46,10 +46,11 @@ Representation of the **_datasets_**  with the observations of 16 QoS metrics ex
 [Index](#Home)
 
 ## 2. Jupiter Notebooks {#notebook}
-The notebooks of the study are available here.
+The study notebooks are available here.
 
 ### 2.1 Model Development Notebook 
 The notebook, which performs the models' training and validation, is available on the link, and the directories required for execution are detailed on the readme.txt file
+
 <p align="center">
     <a href="https://drive.google.com/file/d/119A84lUytPZH5oi05jGiDRFsKz3wfdvK/view?usp=sharing">
         <img src="./imgs/colab.png" alt="Open In Colab"/>
