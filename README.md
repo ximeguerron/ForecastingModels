@@ -55,7 +55,6 @@ The notebook, which performs the models' training and validation, is available o
 |---------------------|-------------|
 | Open in Google Colab         | <a href="https://drive.google.com/file/d/119A84lUytPZH5oi05jGiDRFsKz3wfdvK/view?usp=sharing"> <img src="./imgs/colab.png" alt="Open In Colab"/> </a>|
 | Download file.ipynb |<a href="./experiment/bigru_lstm_ari_univariate_experiment.ipynb" download> <img src="./imgs/jupiter.png" alt="Jupiter Notebook"/> </a> |
-| | <a href="https://github.com/ximeguerron/ForecastingModels/blob/main/experiment/bigru_lstm_ari_univariate_experiment.ipynb" download> </a>| 
 
 ### 2.2 Hypotheses Testing Notebook
 The notebook, which performs the hypothesis testing, is available on the link, and the dataset files required for execution are included in the statistics directory.
