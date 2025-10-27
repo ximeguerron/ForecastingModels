@@ -54,7 +54,7 @@ The notebook, which performs the models' training and validation, is available o
 |Action|Link |
 |---------------------|-------------|
 | Open in Google Colab         | <a href="https://drive.google.com/file/d/119A84lUytPZH5oi05jGiDRFsKz3wfdvK/view?usp=sharing"> <img src="./imgs/colab.png" alt="Open In Colab"/> </a>|
-| Download file.ipynb |<a href="./experiment/bigru_lstm_ari_univariate_experiment.ipynb"> <img src="./imgs/jupiter.png" alt="Jupiter Notebook"/> </a> |
+| Download file.ipynb |<a href="./experiment/bigru_lstm_ari_univariate_experiment.ipynb" download> <img src="./imgs/jupiter.png" alt="Jupiter Notebook"/> </a> |
 
 ### 2.2 Hypotheses Testing Notebook
 The notebook, which performs the hypothesis testing, is available on the link, and the dataset files required for execution are included in the statistics directory.
@@ -62,7 +62,7 @@ The notebook, which performs the hypothesis testing, is available on the link, a
 |Action|Link |
 |---------------------|-------------|
 | Open in Google Colab         | <a href="https://drive.google.com/file/d/1eJAd0O-HS4nhspPVj50LhO4X3Q-tTXUQ/view?usp=sharing"><img src="./imgs/colab.png" alt="Open In Colab"/> </a>|
-| Download file.ipynb |<a href="./statistics/Permanova.ipynb"> <img src="./imgs/jupiter.png" alt="Jupiter Notebook"/> </a> |
+| Download file.ipynb |<a href="./statistics/Permanova.ipynb" download> <img src="./imgs/jupiter.png" alt="Jupiter Notebook"/> </a> |
 
 
 
