@@ -51,18 +51,19 @@ The study notebooks are available here.
 ### 2.1 Model Development Notebook 
 The notebook, which performs the models' training and validation, is available on the link, and the directories required for execution are detailed on the readme.txt file
 
+| Open in Google Colab         |
 <p align="center">
     <a href="https://drive.google.com/file/d/119A84lUytPZH5oi05jGiDRFsKz3wfdvK/view?usp=sharing">
         <img src="./imgs/colab.png" alt="Open In Colab"/>
     </a>
-</p>
+</p> |
 
-<p align="center">
+| Download file.ipynb |<p align="center">
     <a href="./experiment/bigru_lstm_ari_univariate_experiment.ipynb">
         <img src="./imgs/jupiter.png" alt="Jupiter Notebook"/>
     </a>
 </p>
-
+|
 
 ### 2.2 Hypotheses Testing Notebook
 The notebook, which performs the hypothesis testing, is available on the link, and the dataset files required for execution are included in the statistics directory.
